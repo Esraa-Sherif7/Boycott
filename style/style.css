@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(
+  90deg,
+  hsl(0deg 95% 44%) 0%,
+  hsl(0deg 100% 35%) 9%,
+  hsl(0deg 100% 27%) 18%,
+  hsl(0deg 100% 20%) 27%,
+  hsl(343deg 0% 10%) 36%,
+  hsl(344deg 0% 34%) 45%,
+  hsl(344deg 0% 60%) 55%,
+  hsl(344deg 0% 90%) 64%,
+  hsl(141deg 33% 89%) 73%,
+  hsl(142deg 33% 72%) 82%,
+  hsl(145deg 34% 55%) 91%,
+  hsl(155deg 87% 31%) 100%
+);
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formBox{
+    background-color: white;
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 15%;
+    border: none;
+}
+.formBox2{
+    background-color: white;
+    display: flex;
+    max-width: 50%;
+    height: 70%;
+    margin-right: 25%;
+    margin-top: 15%;
+    border: none;
+}
+
+.imgShape{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
+    margin-left: 6%;
+
+}
+.imgShape2{
+    clip-path: polygon(0 0, 100% 0, 54% 100%, 0 100%);
+    margin-left: -6%;
+
+}
+
+
+.form{
+    margin-top: 25% !important;
+    margin-left: 10%;
+    
+}
+
+.form2{
+    margin-top: 25% !important;
+    margin-right: 10%;
+}
+
+.lang{
+   padding-left: 90%;
+   
+}
+
+
+
+.hide{
+    display: none;
+}
